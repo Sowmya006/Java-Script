@@ -1,0 +1,25 @@
+<html>
+<body>
+<h1> Demo of 4 types of o/p statements in JS </h1>
+<h3>
+<ol>
+<li> innerHTML </li>
+<li> document.write </li>
+<li> window.alert </li>
+<li> console.log </li>
+</ol>
+</h3>
+<h2> O/P rendered using innerHTML </h2>
+<p id="demo1"> </p>
+<h2> O/P in textbox rendered using value attribute </h2>
+<input type="text" id="demo2" style="width:800px;height:70px">
+<script>
+document.write("<br><h2> O/p rendered using document.write. </h2>" + (30-5));
+document.getElementById("demo1").innerHTML="Manipal";
+document.getElementById("demo2").value="Global";
+window.alert("Total value is:"+(1+7))
+console.log("Successfully executed");
+</script>
+</body>
+</html>
+
